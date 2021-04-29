@@ -5,6 +5,7 @@ public class Importados extends Produtos{
     private double customsFee;
 
     //constructor
+    public Importados(){}
     public Importados(String name, double price){
         super(name, price);
     }
