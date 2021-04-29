@@ -33,7 +33,7 @@ public class Produtos {
     }
 
     public String imprimir(){
-        return getName() + ", Preço " + getPrice();
+        return getName() + ", Preço " + getPrice() + "\n";
     }
 
 }
