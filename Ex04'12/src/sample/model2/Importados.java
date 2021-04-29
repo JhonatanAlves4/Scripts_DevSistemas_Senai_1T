@@ -26,7 +26,7 @@ public class Importados extends Produtos{
 
     public String imprimir2(){
         return " (Taxa Aduaneira " + getCustomsFee() + ")\n"
-                + "Preço total: " + totalPrice();
+                + "Preço total: " + totalPrice() +  "\n";
     }
 
 }
