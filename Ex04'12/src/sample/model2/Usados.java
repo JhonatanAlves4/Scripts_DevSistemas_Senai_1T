@@ -7,6 +7,7 @@ public class Usados extends Produtos{
     private String manufactureDate;
 
     //constructor
+    public Usados(){}
     public Usados(String name, double price){
         super(name,price);
     }
@@ -21,6 +22,6 @@ public class Usados extends Produtos{
     }
 
     public String littleDate(){
-        return "(data de fabricação: " + getManufactureDate() +")";
+        return "(data de fabricação: " + getManufactureDate() +")\n";
     }
 }
